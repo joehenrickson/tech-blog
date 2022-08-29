@@ -28,7 +28,7 @@
   "homepage": "https://github.com/joehenrickson/tech-blog#readme",
   "devDependencies": {},
   "scripts": {
-    "start": "/config/controllers/server.js",
+    "start": "node index.js",
     "test": "jest"
   }
 }
