@@ -16,7 +16,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
+    "start": "node config/controllers/api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
