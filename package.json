@@ -1,5 +1,5 @@
 {
-  "name": "the-tech-blog",
+  "name": "tech-blog",
   "version": "1.0.0",
   "description": "tech-blog",
   "main": "server.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
       "type": "git",
-      "url": "git@github.com:jakekelly44/tech-blog.git"
+      "url": "git@github.com:joehenrickson/tech-blog.git"
   },
   "author": "Jake Kelly",
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/jakekelly44/tech-blog/issues"
+      "url": "https://github.com/joehenrickson/tech-blog/issues"
   },
-  "homepage": "https://github.com/jakekelly44/tech-blog#readme",
+  "homepage": "https://github.com/joehenrickson/tech-blog#readme",
   "dependencies": {
       "bcrypt": "^5.0.0",
       "connect-session-sequelize": "^6.1.1",
