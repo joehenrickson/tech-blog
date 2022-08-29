@@ -6,8 +6,8 @@ const helpers = require('./utils/helpers');
 const express_handlebars = require('express-handlebars');
 const handlebars = express_handlebars.create({ helpers });
 const session = require('express-session');
-const app = express();
 const PORT = process.env.PORT || 3001;
+const app = express();
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const session2 = {
   secret: 'Super secret secret',
