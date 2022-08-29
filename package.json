@@ -26,9 +26,5 @@
     "url": "https://github.com/joehenrickson/tech-blog/issues"
   },
   "homepage": "https://github.com/joehenrickson/tech-blog#readme",
-  "devDependencies": {},
-  "scripts": {
-    "start": "node index.js",
-    "test": "jest"
-  }
+  "devDependencies": {}
 }
