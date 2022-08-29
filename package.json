@@ -1,26 +1,36 @@
 {
-  "dependencies": {
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.21.4"
-  },
-  "name": "tech-blog",
-  "description": "",
+  "name": "the-tech-blog",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "tech-blog",
+  "main": "server.js",
   "scripts": {
-    "start": "config/controllers/api/index.js"
+      "test": "jest",
+      "start": "node server.js",
+      "watch": "nodemon server.js",
+      "seed": "node seeds/index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joehenrickson/tech-blog.git"
+      "type": "git",
+      "url": "git@github.com:jakekelly44/tech-blog.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jake Kelly",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joehenrickson/tech-blog/issues"
+      "url": "https://github.com/jakekelly44/tech-blog/issues"
   },
-  "homepage": "https://github.com/joehenrickson/tech-blog#readme",
-  "keywords": []
+  "homepage": "https://github.com/jakekelly44/tech-blog#readme",
+  "dependencies": {
+      "bcrypt": "^5.0.0",
+      "connect-session-sequelize": "^6.1.1",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "express-handlebars": "^4.0.4",
+      "express-session": "^1.17.1",
+      "mysql2": "^2.1.0",
+      "sequelize": "^5.21.12"
+  },
+  "devDependencies": {
+      "jest": "^26.4.2",
+      "nodemon": "^2.0.4"
+  }
 }
