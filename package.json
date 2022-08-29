@@ -28,6 +28,7 @@
   "homepage": "https://github.com/joehenrickson/tech-blog#readme",
   "devDependencies": {},
   "scripts": {
+    "start": "/controllers/server.js",
     "test": "jest"
   }
 }
