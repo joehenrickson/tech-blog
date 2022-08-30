@@ -15,6 +15,7 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 express-handlebars, MySQL2, Sequelize, Express.js, dotenv package, bcrypt, express-session, connect-session-sequelize
 ## Usage
 Writing, deleting and commenting on blog posts.  
+View the application on Heroku with this link: https://tech-blog-joe.herokuapp.com/
 ## License
 ![badge](https://img.shields.io/badge/license-ISC-brightgreen)
 <br />
@@ -24,7 +25,7 @@ Joe Henrickson
 ## Tests
 No
 ## Questions
-Contact joehenrickson@gmail.com or find the Github at https://github.com/joehenrickson<br />
+Contact joehenrickson@gmail.com or find the Github at https://github.com/joehenrickson/tech-blog<br />
 <br />
 Find me on GitHub: [joehenrickson](https://github.com/joehenrickson)<br />
 <br />
