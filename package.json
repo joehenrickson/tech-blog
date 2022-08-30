@@ -17,8 +17,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "jest",
-    "start": "node config/controllers/server.js",
-    "watch": "nodemon server.js",
+    "start": "node config/server.js",
+    "watch": "nodemon config/server.js",
     "seed": "node seeds/index.js"
 },
   "repository": {
